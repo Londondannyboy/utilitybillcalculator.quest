@@ -80,13 +80,25 @@ export default function Home() {
             Explore our other free calculators to help manage your household finances:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <a href="https://energybillcalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
-              <span className="font-medium text-gray-900 dark:text-white">Energy Bill Calculator</span>
-              <span className="block text-sm text-gray-500 dark:text-gray-400">Calculate your monthly energy costs</span>
-            </a>
             <a href="https://gasratecalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
               <span className="font-medium text-gray-900 dark:text-white">Gas Rate Calculator</span>
               <span className="block text-sm text-gray-500 dark:text-gray-400">Calculate gas appliance heat input (kW)</span>
+            </a>
+            <a href="https://mortgagecalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Mortgage Calculator</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Calculate monthly mortgage payments</span>
+            </a>
+            <a href="https://stampdutycalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Stamp Duty Calculator</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Calculate UK SDLT, LBTT, and LTT</span>
+            </a>
+            <a href="https://rentvsbuycalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Rent vs Buy Calculator</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Compare renting vs buying costs</span>
+            </a>
+            <a href="https://energybillcalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
+              <span className="font-medium text-gray-900 dark:text-white">Energy Bill Calculator</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Calculate monthly energy costs</span>
             </a>
             <a href="https://watersavingcalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
               <span className="font-medium text-gray-900 dark:text-white">Water Saving Calculator</span>
@@ -94,11 +106,7 @@ export default function Home() {
             </a>
             <a href="https://watermetercalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
               <span className="font-medium text-gray-900 dark:text-white">Water Meter Calculator</span>
-              <span className="block text-sm text-gray-500 dark:text-gray-400">Track and calculate water meter readings</span>
-            </a>
-            <a href="https://mortgagecalculator.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
-              <span className="font-medium text-gray-900 dark:text-white">Mortgage Calculator</span>
-              <span className="block text-sm text-gray-500 dark:text-gray-400">Calculate monthly mortgage payments</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-400">Track water meter readings</span>
             </a>
             <a href="https://homeinsurance.quest" className="block p-3 rounded-lg bg-white dark:bg-gray-800 hover:shadow-md transition-shadow">
               <span className="font-medium text-gray-900 dark:text-white">Home Insurance</span>
