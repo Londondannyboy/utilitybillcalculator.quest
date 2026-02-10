@@ -110,17 +110,17 @@ export default function Home() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium mb-6"
                style={{ background: "rgba(249, 115, 22, 0.15)", color: "#fb923c" }}>
             <span className="pulse-dot w-2 h-2 rounded-full bg-green-500" />
-            Free UK Utility Bill Calculator
+            Free UK Bills Calculator
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
-            <span className="gradient-text">Utility Bill Calculator</span>
+            <span className="gradient-text">Utility Bill Calculator UK</span>
             <span className="block text-2xl md:text-3xl mt-2 text-slate-300 font-normal">
-              Estimate Your Monthly Household Costs
+              Household Bills Estimator
             </span>
           </h1>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-            Calculate your expected gas, electricity, and water bills based on your property type,
-            household size, and current UK energy prices.
+            Our free utilities bill calculator helps you estimate your monthly household bills including gas, electricity, and water.
+            Use this UK bills calculator to budget your house bills based on property type and occupants.
           </p>
         </div>
       </section>
@@ -135,7 +135,7 @@ export default function Home() {
                 <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
-                Your Property Details
+                Calculate Your Household Bills
               </h2>
 
               <div className="space-y-5">
@@ -380,34 +380,34 @@ export default function Home() {
       <section className="px-4 py-12" style={{ background: "var(--background-secondary)" }}>
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-            How We Calculate Your Bills
+            How Our Utilities Calculator Works
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
               <div className="w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-orange-500">1</span>
               </div>
-              <h3 className="font-semibold mb-2">Property Analysis</h3>
+              <h3 className="font-semibold mb-2">House Bills Analysis</h3>
               <p className="text-sm text-slate-400">
-                We use your property type and size to estimate baseline energy consumption based on UK averages.
+                Our bill calculator uses your property type and size to estimate baseline utilities cost based on UK averages.
               </p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-orange-500">2</span>
               </div>
-              <h3 className="font-semibold mb-2">Usage Adjustment</h3>
+              <h3 className="font-semibold mb-2">Household Adjustment</h3>
               <p className="text-sm text-slate-400">
-                Your household size and habits are factored in to create a more accurate consumption estimate.
+                The household bills calculator factors in your family size and habits for a more accurate bills estimate.
               </p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-orange-500">3</span>
               </div>
-              <h3 className="font-semibold mb-2">Cost Calculation</h3>
+              <h3 className="font-semibold mb-2">Utility Cost Calculation</h3>
               <p className="text-sm text-slate-400">
-                We apply current UK energy price cap rates to give you monthly and annual cost estimates.
+                We apply current UK energy price cap rates to give you monthly and annual utility bill estimates.
               </p>
             </div>
           </div>
@@ -418,42 +418,54 @@ export default function Home() {
       <section className="px-4 py-12">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-            Frequently Asked Questions
+            Utilities Bill Calculator FAQ
           </h2>
 
           <details>
             <summary>
-              What is the average utility bill in the UK?
+              What is the average household bill in the UK?
               <svg className="chevron w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </summary>
             <div className="content">
-              For a typical 3-bedroom house with 2-3 occupants, average monthly utility costs are approximately £150-200 for energy (gas and electricity combined) and £30-40 for water. However, this varies significantly based on property size, insulation quality, heating type, and usage habits. The energy price cap set by Ofgem directly affects these costs.
+              For a typical 3-bedroom house with 2-3 occupants, average monthly household bills are approximately £150-200 for energy (gas and electricity combined) and £30-40 for water. Use our utilities bill calculator to get a personalised bills estimate based on your specific situation. House bills vary significantly based on property size, insulation quality, and usage habits.
             </div>
           </details>
 
           <details>
             <summary>
-              How accurate is this utility bill calculator?
+              How do I calculate my utility bills UK?
               <svg className="chevron w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </summary>
             <div className="content">
-              Our calculator provides estimates based on average UK household consumption data and current price cap rates. Actual bills may differ by 15-25% depending on factors like home insulation, appliance efficiency, heating schedules, and your specific energy tariff. For the most accurate estimate, enter your actual tariff rates using the custom rates option.
+              To calculate utility bills, enter your property type, number of occupants, and heating type into our free bills calculator UK. The household bills calculator automatically estimates your monthly costs using current Ofgem price cap rates. You can also enter your own tariff rates for a more accurate utility bill estimate.
             </div>
           </details>
 
           <details>
             <summary>
-              What is the energy price cap?
+              How accurate is this household bills estimator?
               <svg className="chevron w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </summary>
             <div className="content">
-              The energy price cap is set by Ofgem and limits the maximum amount suppliers can charge for each unit of gas and electricity, as well as the daily standing charge. It's reviewed quarterly and aims to protect consumers from excessive price increases. Our calculator uses the current price cap rates as default values.
+              Our utilities calculator provides estimates based on average UK household consumption data and current price cap rates. Actual bills may differ by 15-25% depending on factors like home insulation, appliance efficiency, and your specific energy tariff. For the most accurate bills estimate, enter your actual tariff rates.
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              What bills does a utilities cost calculator include?
+              <svg className="chevron w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <div className="content">
+              Our UK bills calculator estimates three main household utilities: electricity, gas, and water (including sewerage). The bill calculator shows monthly and annual costs for each utility separately, plus a total household bills figure. This helps you understand your complete house bills breakdown.
             </div>
           </details>
 
@@ -465,19 +477,19 @@ export default function Home() {
               </svg>
             </summary>
             <div className="content">
-              A water meter is usually beneficial if you have fewer occupants than bedrooms, use water efficiently, or live alone. Larger families in smaller properties may pay less on unmetered rates. Most water companies offer a free meter installation and a trial period where you can switch back if costs increase.
+              A water meter is usually beneficial if you have fewer occupants than bedrooms. Use our household bill calculator to compare metered vs unmetered water costs for your situation. Most water companies offer free meter installation and a trial period where you can switch back if your bills increase.
             </div>
           </details>
 
           <details>
             <summary>
-              How can I reduce my utility bills?
+              How can I reduce my household bills?
               <svg className="chevron w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </summary>
             <div className="content">
-              Key strategies include: improving home insulation, using a smart thermostat, switching to LED bulbs, running appliances during off-peak hours (if on a time-of-use tariff), fixing dripping taps, taking shorter showers, and comparing energy suppliers regularly. Even small changes like lowering your thermostat by 1°C can save around £100 annually.
+              To reduce your utility bills: improve home insulation, use a smart thermostat, switch to LED bulbs, run appliances during off-peak hours, and compare energy suppliers. Our house bills calculator helps you understand where your money goes. Even lowering your thermostat by 1°C can save around £100 annually on your household bills.
             </div>
           </details>
 
@@ -489,14 +501,62 @@ export default function Home() {
               </svg>
             </summary>
             <div className="content">
-              The standing charge is a fixed daily fee that covers the cost of connecting your home to the energy network - you pay this regardless of how much energy you use. The unit rate is what you pay per kilowatt-hour (kWh) of gas or electricity consumed. Your total bill combines both: (standing charge × days) + (unit rate × kWh used).
+              The standing charge is a fixed daily fee for your utility connection - you pay this regardless of usage. The unit rate is what you pay per kWh consumed. Our utilities bill calculator factors in both when estimating your bills: (standing charge × days) + (unit rate × kWh used) = your total bill.
             </div>
           </details>
         </div>
       </section>
 
-      {/* Related Calculators */}
+      {/* About Section - SEO Content */}
       <section className="px-4 py-12" style={{ background: "var(--background-secondary)" }}>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+            About Our UK Bills Calculator
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-lg font-semibold mb-3 text-orange-400">Why Use a Household Bills Calculator?</h3>
+              <p className="text-slate-400 text-sm mb-4">
+                Whether you&apos;re moving to a new property, budgeting for the year ahead, or simply want to understand your utilities cost,
+                our free bills calculator UK provides accurate estimates for your household bills. The utility bill estimator considers
+                your property size, number of occupants, and heating type to calculate utility bills specific to your situation.
+              </p>
+              <p className="text-slate-400 text-sm">
+                This household bills estimator uses current Ofgem price cap rates to ensure your bills estimate reflects
+                real-world costs. Unlike generic averages, our house bills calculator adapts to your specific circumstances.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-3 text-orange-400">Utilities Bill Calculator Features</h3>
+              <ul className="text-slate-400 text-sm space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">&#10003;</span>
+                  <span><strong>Bill calculator UK</strong> - Estimates based on current UK energy prices</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">&#10003;</span>
+                  <span><strong>Household bills calculator</strong> - Covers electricity, gas, and water</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">&#10003;</span>
+                  <span><strong>Utilities cost calculator</strong> - Shows monthly and annual breakdowns</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">&#10003;</span>
+                  <span><strong>House bills estimator</strong> - Adjusts for property type and size</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">&#10003;</span>
+                  <span><strong>Custom tariff rates</strong> - Enter your own rates for accurate bills estimate</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Calculators */}
+      <section className="px-4 py-12">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold mb-2 text-center">Related Calculators</h2>
           <p className="text-slate-400 text-center mb-8">
@@ -631,10 +691,10 @@ export default function Home() {
           <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
               <div className="h-1 w-8 rounded bg-orange-500" />
-              <span className="font-semibold">Utility Bill Calculator</span>
+              <span className="font-semibold">Utility Bill Calculator UK</span>
             </div>
             <p className="text-sm text-slate-500">
-              &copy; {new Date().getFullYear()} Utility Bill Calculator. All rights reserved.
+              &copy; {new Date().getFullYear()} Utility Bill Calculator UK - Free Household Bills Estimator
             </p>
           </div>
         </div>

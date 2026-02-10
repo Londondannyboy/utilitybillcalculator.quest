@@ -2,21 +2,32 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Utility Bill Calculator UK - Estimate Gas, Electricity & Water Costs",
-  description: "Free UK utility bill calculator. Estimate your monthly gas, electricity and water bills based on property type, household size and current energy prices. Updated with Ofgem price cap rates.",
+  title: "Utility Bill Calculator UK | Household Bills Calculator & Estimator",
+  description: "Free utilities bill calculator UK. Calculate and estimate your household bills including gas, electricity and water. Our bills calculator helps you budget monthly utility costs based on your house size and usage.",
   keywords: [
     "utility bill calculator",
-    "UK energy costs",
-    "electricity bill estimator",
-    "gas bill calculator",
-    "water bill calculator",
-    "household utility costs",
-    "monthly energy bills",
-    "Ofgem price cap",
-    "energy cost estimator",
-    "home running costs"
+    "utilities bill calculator",
+    "bills calculator",
+    "household bills calculator",
+    "house bills calculator",
+    "bill calculator",
+    "utilities calculator",
+    "utility bills calculator",
+    "household bills calculator uk",
+    "household bill calculator",
+    "household bills estimator",
+    "utilities cost calculator",
+    "calculate utility bill",
+    "bills calculator uk",
+    "utility cost calculator",
+    "utility bill estimator",
+    "uk bills calculator",
+    "bill calculator uk",
+    "utilities bill estimator",
+    "bills estimate",
+    "estimating utilities"
   ],
-  authors: [{ name: "Utility Bill Calculator" }],
+  authors: [{ name: "Utility Bill Calculator UK" }],
   creator: "Utility Bill Calculator",
   publisher: "Utility Bill Calculator",
   robots: {
@@ -31,10 +42,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Utility Bill Calculator UK - Estimate Your Monthly Costs",
-    description: "Free calculator to estimate your monthly gas, electricity and water bills. Based on UK average consumption and current Ofgem price cap rates.",
+    title: "Utility Bill Calculator UK | Free Household Bills Estimator",
+    description: "Free utilities calculator to estimate your household bills. Calculate gas, electricity and water costs for your UK home. Updated with current Ofgem price cap rates.",
     url: "https://utilitybillcalculator.quest",
-    siteName: "Utility Bill Calculator",
+    siteName: "Utility Bill Calculator UK",
     locale: "en_GB",
     type: "website",
     images: [
@@ -42,14 +53,14 @@ export const metadata: Metadata = {
         url: "https://utilitybillcalculator.quest/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Utility Bill Calculator - Estimate UK Household Costs",
+        alt: "Utility Bill Calculator UK - Household Bills Estimator",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Utility Bill Calculator UK - Estimate Your Monthly Costs",
-    description: "Free calculator to estimate your monthly gas, electricity and water bills. Based on UK average consumption and current Ofgem price cap rates.",
+    title: "Utility Bill Calculator UK | Free Household Bills Estimator",
+    description: "Free utilities calculator to estimate your household bills. Calculate gas, electricity and water costs for your UK home.",
     images: ["https://utilitybillcalculator.quest/og-image.png"],
   },
   alternates: {
@@ -63,9 +74,16 @@ export const metadata: Metadata = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Utility Bill Calculator",
+  name: "Utility Bill Calculator UK",
+  alternateName: [
+    "Utilities Bill Calculator",
+    "Household Bills Calculator UK",
+    "UK Bills Calculator",
+    "House Bills Calculator",
+    "Utilities Cost Calculator"
+  ],
   url: "https://utilitybillcalculator.quest",
-  description: "Free UK utility bill calculator to estimate monthly gas, electricity and water costs based on property type and household size.",
+  description: "Free UK utility bill calculator and household bills estimator. Calculate your monthly gas, electricity and water costs based on property type and household size.",
   potentialAction: {
     "@type": "SearchAction",
     target: "https://utilitybillcalculator.quest/?q={search_term_string}",
@@ -77,6 +95,12 @@ const softwareSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   name: "Utility Bill Calculator",
+  alternateName: [
+    "Utilities Calculator",
+    "Bills Calculator UK",
+    "Household Bills Estimator",
+    "Utility Cost Calculator"
+  ],
   applicationCategory: "FinanceApplication",
   operatingSystem: "Web Browser",
   offers: {
@@ -89,7 +113,7 @@ const softwareSchema = {
     ratingValue: "4.8",
     ratingCount: "1250",
   },
-  description: "Calculate your estimated monthly utility bills including gas, electricity and water based on UK average consumption rates and current Ofgem price cap.",
+  description: "Calculate and estimate your monthly utility bills and household costs including gas, electricity and water. Free UK bills calculator with current Ofgem price cap rates.",
 };
 
 const faqSchema = {
@@ -101,15 +125,23 @@ const faqSchema = {
       name: "What is the average utility bill in the UK?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For a typical 3-bedroom house with 2-3 occupants, average monthly utility costs are approximately £150-200 for energy (gas and electricity combined) and £30-40 for water. However, this varies significantly based on property size, insulation quality, heating type, and usage habits.",
+        text: "For a typical 3-bedroom house with 2-3 occupants, average monthly household bills are approximately £150-200 for energy (gas and electricity combined) and £30-40 for water. Use our utilities bill calculator to get a more accurate estimate for your specific situation.",
       },
     },
     {
       "@type": "Question",
-      name: "How accurate is this utility bill calculator?",
+      name: "How do I calculate my utility bills?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Our calculator provides estimates based on average UK household consumption data and current price cap rates. Actual bills may differ by 15-25% depending on factors like home insulation, appliance efficiency, heating schedules, and your specific energy tariff.",
+        text: "To calculate your utility bills, you need to know your property type, number of occupants, heating type, and current tariff rates. Our free bills calculator UK tool does this automatically - simply enter your details and get an instant estimate of your monthly household bills.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How accurate is this household bills calculator?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Our household bills estimator provides estimates based on average UK consumption data and current Ofgem price cap rates. Actual bills may differ by 15-25% depending on factors like home insulation, appliance efficiency, and your specific energy tariff.",
       },
     },
     {
@@ -117,7 +149,7 @@ const faqSchema = {
       name: "What is the energy price cap?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The energy price cap is set by Ofgem and limits the maximum amount suppliers can charge for each unit of gas and electricity, as well as the daily standing charge. It's reviewed quarterly and aims to protect consumers from excessive price increases.",
+        text: "The energy price cap is set by Ofgem and limits the maximum amount suppliers can charge for each unit of gas and electricity, as well as the daily standing charge. Our utilities cost calculator uses these rates to estimate your bills.",
       },
     },
     {
@@ -125,23 +157,23 @@ const faqSchema = {
       name: "Should I get a water meter installed?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A water meter is usually beneficial if you have fewer occupants than bedrooms, use water efficiently, or live alone. Larger families in smaller properties may pay less on unmetered rates. Most water companies offer a free meter installation and a trial period where you can switch back if costs increase.",
+        text: "A water meter is usually beneficial if you have fewer occupants than bedrooms. Use our bill calculator to compare metered vs unmetered water costs for your household.",
       },
     },
     {
       "@type": "Question",
-      name: "How can I reduce my utility bills?",
+      name: "How can I reduce my household bills?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Key strategies include: improving home insulation, using a smart thermostat, switching to LED bulbs, running appliances during off-peak hours, fixing dripping taps, taking shorter showers, and comparing energy suppliers regularly. Even small changes like lowering your thermostat by 1°C can save around £100 annually.",
+        text: "Key strategies to reduce your utility bills include improving home insulation, using a smart thermostat, switching to LED bulbs, and comparing energy suppliers. Our house bills calculator can help you understand where your money goes.",
       },
     },
     {
       "@type": "Question",
-      name: "What's the difference between standing charge and unit rate?",
+      name: "What bills does a utilities calculator include?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The standing charge is a fixed daily fee that covers the cost of connecting your home to the energy network - you pay this regardless of how much energy you use. The unit rate is what you pay per kilowatt-hour (kWh) of gas or electricity consumed. Your total bill combines both.",
+        text: "A comprehensive utilities bill calculator typically includes electricity, gas, and water costs. Our UK bills calculator estimates all three based on your property size, number of occupants, and usage patterns.",
       },
     },
   ],
@@ -150,28 +182,28 @@ const faqSchema = {
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  name: "How to Calculate Your Monthly Utility Bills",
-  description: "Use our free calculator to estimate your monthly gas, electricity and water costs based on your property and household.",
+  name: "How to Calculate Your Household Bills UK",
+  description: "Use our free utilities bill calculator to estimate your monthly gas, electricity and water costs. This bills estimator helps UK households budget accurately.",
   step: [
     {
       "@type": "HowToStep",
       name: "Select your property type",
-      text: "Choose your property type from the dropdown menu (e.g., 1-bed flat, 3-bed house, etc.)",
+      text: "Choose your property type in the bills calculator (e.g., 1-bed flat, 3-bed house, etc.)",
     },
     {
       "@type": "HowToStep",
       name: "Enter household details",
-      text: "Specify the number of occupants and your heating type (gas, electric, or other).",
+      text: "Specify the number of occupants and your heating type to calculate utility bills accurately.",
     },
     {
       "@type": "HowToStep",
       name: "Set additional preferences",
-      text: "Indicate if you have a water meter and if you regularly work from home.",
+      text: "Indicate if you have a water meter and if you work from home for better bills estimate.",
     },
     {
       "@type": "HowToStep",
-      name: "Review your estimate",
-      text: "View your estimated monthly and annual costs for electricity, gas, and water with a full breakdown.",
+      name: "Review your utility bill estimate",
+      text: "View your estimated monthly and annual household bills with a full breakdown by utility type.",
     },
   ],
 };
